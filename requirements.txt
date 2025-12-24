@@ -1,3 +1,24 @@
-opencv-python
-numpy
-Pillow>=10.0.0
+# Face Recognition System - Government Project
+# Updated: 2025-12-24
+
+# Core face recognition library (dlib-based, 99.38% accuracy)
+face-recognition>=1.3.0
+
+# Deep learning backend for face_recognition
+dlib>=19.24.0
+
+# Computer vision library
+opencv-python>=4.8.0
+
+# Numerical operations
+numpy>=1.24.0
+
+# Image processing
+pillow>=10.0.0
+
+# Text-to-Speech
+pyttsx3>=2.90
+
+# Optional: For faster processing with GPU (CUDA required)
+# Uncomment if you have NVIDIA GPU with CUDA installed:
+# dlib-cuda>=19.24.0
